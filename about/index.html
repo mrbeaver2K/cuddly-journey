@@ -6,17 +6,30 @@
         About
       </title>
       <link rel="icon", type="image/x-icon", href="../assets/favicon.ico">
-          </head>
-          <body>
-          <table>
-              <tr>
-                <th><a href="../daily/">The Daily cat</a></th>
-                <th><a href="../">Home</a></th> 
-                <th><a onclick="meow()", href="javascript:void(0);">
-                    Meow (NO NOT CLICK)</th>
-            </table>
-            <p>
-              This website was coded during a web design course and was coded in a mixture of html and python. The cat will switch every day, see if you can see them all. If Frisco appears in a washing machine, it means the site was updated today.
-            </p>
+      <script>
+        var x
+          function meow() {
+              x = 0
+              while (x < 10) {
+                alert("Meow!")
+                x += 1
+              }
+                alert("I told you not to click...")
+              alert("😼")
+              window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+          }
+      </script>
+    </head>
+    <body>
+      <table>
+        <tr>
+          <th><a href="../daily/">The Daily cat</a></th>
+          <th><a href="../">Home</a></th> 
+          <th><a onclick="meow()", href="javascript:void(0);">Meow (NO NOT CLICK)</th>
+        </tr>
+      </table>
+      <p>
+        This website was coded during a web design course and was coded in a mixture of html and python. The cat will switch every day, see if you can see them all. If Frisco appears in a washing machine, it means the site was updated today.
+      </p>
     </body>
 </html>

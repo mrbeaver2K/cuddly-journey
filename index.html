@@ -7,10 +7,16 @@
         </title>
         <link rel="icon", type="image/x-icon", href="assets/favicon.ico">
         <script>
+            var x
             function meow() {
-                while (true) {
+                x = 0
+                while (x < 10) {
                     alert("Meow!")
+                    x += 1
                 }
+                alert("I told you not to click...")
+                alert("😼")
+                window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
             }
         </script>
     </head>
@@ -19,8 +25,7 @@
             <tr>
               <th><a href="./daily/">The Daily cat</a></th>
               <th><a href="./about/">About</a></th> 
-              <th><a onclick="meow()", href="javascript:void(0);">
-                  Meow (NO NOT CLICK)</th>
+              <th><a onclick="meow()", href="javascript:void(0);">Meow (NO NOT CLICK)</th>
           </table>
         <div class="center">
         <h1>Daily Cat Home</h1>

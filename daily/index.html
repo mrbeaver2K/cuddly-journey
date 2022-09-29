@@ -6,10 +6,27 @@
             The Daily Cat
         </title>
         <link rel="icon", type="image/x-icon", href="../assets/favicon.ico">
+        <script>
+            var x
+            function meow() {
+                x = 0
+                while (x < 10) {
+                    alert("Meow!")
+                    x += 1
+                }
+                alert("I told you not to click...")
+                alert("😼")
+                window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+            }
+        </script>
     </head>
     <body>
-        <br>
-        <a href="../">back to home</a>
+        <table>
+            <tr>
+              <th><a href="../">Home</a></th>
+              <th><a href="../about/">About</a></th> 
+              <th><a onclick="meow()", href="javascript:void(0);">Meow (NO NOT CLICK)</th>
+          </table>
         <br>
         <h1 class="center"> Welcome to the daily cat :O</h1>
         <img src="cat.jpg"></img>
