@@ -203,4 +203,4 @@ healthchecksdb
 MigrationBackup/
 .ionide/
 # All entries ahead added
-cat.jpg
+daily/cat.jpg
